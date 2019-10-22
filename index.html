@@ -44,15 +44,15 @@
 
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <ol>
-            <li>First Thing</li>
-            <li>Second Thing</li>
+            <li id="first-thing" class="list-item">First Thing</li>
+            <li class="list-item">Second Thing</li>
         </ol>
         <ul>
-            <li>First Thing</li>
-            <li>Second Thing</li>
+            <li class="list-item">First Thing</li>
+            <li class="list-item">Second Thing</li>
         </ul>
-
-        <a href="other.html">Go to the Other Page</a><!-- Relative this works in github pages -->
+        <!-- ids can only be on the page once -->
+        <a id="first-other-link" href="other.html">Go to the Other Page</a><!-- Relative this works in github pages -->
         <br>
         <a href="/other.html">Go to the Other Page (Does not work in github pages)</a><!-- Absolute to Root will not work in github pages-->
         <br>

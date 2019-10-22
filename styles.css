@@ -7,3 +7,24 @@ selector {
 body {
     background: transparent;
 }
+/* generics applied first then classes then ids */
+/* in other wordsall applied in order of rules and then more specifics are applied later */
+
+li {
+    font-size: 14px;
+}
+
+/* 1 */
+.list-item {
+    color: blue;
+}
+/* 3 higher numbers mean higher priority and higher specificity */
+#first-thing.list-item {
+    color: red;
+}
+
+/* 2 */
+#first-thing {
+    color: black;
+    text-decoration: underline;
+}
