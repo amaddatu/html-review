@@ -29,7 +29,23 @@ li {
     text-decoration: underline;
 }
 
-/* anything above this line will be for screens smaller than 600px */
+.data-table {
+    background: orange;
+}
+.data-table div:nth-child(1){
+    background: gray;
+}
+.data-table div:nth-child(2){
+    background: lightblue;
+}
+.data-table div:nth-child(3){
+    background: red;
+}
+.data-table div:nth-child(4){
+    color: white;
+    background: indigo;
+}
+/* anything above this line will be for screens smaller than 600px or as default*/
 
 @media only screen and (min-width: 600px) {
     #first-thing{
@@ -41,3 +57,5 @@ li {
         color: blue;
     }
 }
+
+
