@@ -20,7 +20,6 @@ li {
 }
 /* 3 higher numbers mean higher priority and higher specificity */
 #first-thing.list-item {
-    color: red;
     background: black;
 }
 
@@ -28,4 +27,17 @@ li {
 #first-thing {
     color: black;
     text-decoration: underline;
+}
+
+/* anything above this line will be for screens smaller than 600px */
+
+@media only screen and (min-width: 600px) {
+    #first-thing{
+        color: red;
+    }
+}
+@media only screen and (min-width: 900px) {
+    #first-thing{
+        color: blue;
+    }
 }
