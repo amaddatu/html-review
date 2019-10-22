@@ -21,6 +21,7 @@ li {
 /* 3 higher numbers mean higher priority and higher specificity */
 #first-thing.list-item {
     color: red;
+    background: black;
 }
 
 /* 2 */
